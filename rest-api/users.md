@@ -1,4 +1,4 @@
-# User & Auth Endpoints
+# Users & Auth Endpoints
 
 ### Signup (create user) | Any Plan
 
@@ -10,7 +10,7 @@ POST /api/v1/signup
 POST /api/v1/login
 
 
-### Is aAthenticated (Validate Token) | Any Plan
+### Is Athenticated (Validate Token) | Any Plan
 
 GET /api/v1/authenticate (ROLE_USER)
 
