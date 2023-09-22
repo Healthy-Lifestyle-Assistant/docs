@@ -48,6 +48,7 @@ cd /path/to/backend/
 - Create new issue for each task
 - Create new branch for each issue. Before that checkout to main branch and merge changes to it.
 - Run tests on local machine before commit
+- In commit description paste issue title and number
 - Create draft pull request if still working on it
 - Create pull request and request code review 
 
