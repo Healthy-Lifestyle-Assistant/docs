@@ -1,3 +1,3 @@
 # Deploy Schema
 
-![Deployment Schema](img/deployment.jpg)
+![Deploy Schema](img/deployment.jpg)
