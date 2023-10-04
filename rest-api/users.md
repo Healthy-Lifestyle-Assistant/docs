@@ -1,30 +1,13 @@
 # Users & Auth Endpoints
 
-### Signup (create user) | Any Plan
+**Signup (Unlogged)** - POST /api/v1/auth/signup
 
-POST /api/v1/signup
+**Login (Unlogged)** - POST /api/v1/auth/login
 
+**Is Athenticated (Validate Token) (Basic, Pro)** - GET /api/v1/auth/authenticate
 
-### Login | Any Plan
+**Get User Details (Basic, Pro)** - GET /api/v1/users/{user_id}
 
-POST /api/v1/login
+**Update User Details (Basic, Pro)** - PATCH /api/v1/users/{user_id}
 
-
-### Is Athenticated (Validate Token) | Any Plan
-
-GET /api/v1/authenticate (ROLE_USER)
-
-
-### Get User Details | Any Plan
-
-GET /api/v1/users/{user_id} (ROLE_USER)
-
-
-### Update User | Any Plan
-
-PATCH /api/v1/users/{user_id} (ROLE_USER)
-
-
-### Delete User | Any Plan
-
-DELETE /api/v1/users/{user_id} (ROLE_USER)
+**Delete User (Basic, Pro)** - DELETE /api/v1/users/{user_id}
