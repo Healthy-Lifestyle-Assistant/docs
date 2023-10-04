@@ -13,65 +13,16 @@ Exercises can be default and custom. If a user has a basic plan subscription, th
 
 Nutrition (supplements) and meditation (mental health) are planned to be included in the future. At this moment the project is focused on workouts.
 
+[User Stories](https://github.com/Healthy-Lifestyle-Assistant/docs/tree/main/User-Stories)
 
-## Requirements for Local Machines
+[Domain Area Diagram](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Diagrams/Domain-Diagram.md)
 
-- JDK 17
-- Maven >=3
-- Node 18
-- Docker
-- PostgreSQL 12
+[Database Diagram](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Diagrams/Database-Diagram.md)
 
-## How to Run Application
+[Deploy Diagram](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Diagrams/Deploy-Diagram.md)
 
-### Frontend
+[REST API Endpoints](https://github.com/Healthy-Lifestyle-Assistant/docs/tree/main/REST-API)
 
-```sh
-cd /path/to/HLA/
-git clone https://github.com/Healthy-Lifestyle-Assistant/frontend.git
+[Dev Guides](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Guides.md)
 
-cd frontend/
-npm install
-
-npm run serve
-```
-
-### Backend
-
-```sh
-cd /path/to/HLA/
-git clone https://github.com/Healthy-Lifestyle-Assistant/backend.git
-
-# Open project in Intellij IDEA
-# Wait until dependencies intalled
-# Run/Debug App.main()
-```
-
-## How to Run Backend Tests Before Commit
-
-```sh
-# Open project in Intellij IDEA
-# Gradle > verification > spotlessApply
-
-cd /path/to/backend/
-./gradlew clean build
-```
-
-## Guides
-
-- Create new issue for each task
-- Create new branch for each issue. Before that checkout to main branch and merge changes to it.
-- Run tests on local machine before commit
-- In commit description paste issue title and number
-- Create draft pull request if still working on it
-- Create pull request and request code review 
-
-### Branches Naming
-
-```txt
-feature/123-some-description
-fix/123-some-description
-build/123-some-description
-cicd/123-some-description
-docs/123-some-description
-```
+[Onboarding](https://github.com/Healthy-Lifestyle-Assistant/docs/tree/main/Onboarding)

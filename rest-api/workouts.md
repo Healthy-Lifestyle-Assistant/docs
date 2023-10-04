@@ -2,92 +2,45 @@
 
 ## Body Parts
 
-### List All Body Parts | Any Plan
-
-GET /api/v1/workouts/bodyParts
+**List All Body Parts (Unlogged)** - GET /api/v1/workouts/bodyParts
 
 
 ## Media References
 
-### List Template Media References | Any Plan
+**List Default Media References (Unlogged)** - GET /api/v1/workouts/httpRefs/default
 
-GET /api/v1/workouts/mediaRefs/templates
+**List Custom Media References (Pro)** - GET /api/v1/workouts/httpRefs
 
+**Create Custom Media Reference (Pro)** - POST /api/v1/workouts/httpRefs
 
-### List All Media References or Custom Only | Pro
+**Update Custom Media Reference (Pro)** - PATCH /api/v1/workouts/httpRefs/{httpRef_id}
 
-GET /api/v1/workouts/mediaRefs?isCustomOnly=
-
-
-### Create Custom Media Reference | Pro
-
-POST /api/v1/workouts/mediaRefs
-
-
-### Update Custom Media Reference | Pro
-
-PATCH /api/v1/workouts/mediaRefs/{mediaRef_id}
-
-
-### Delete Custom Meida Reference | Pro
-
-DELETE /api/v1/workouts/mediaRefs/{mediaRef_id}
+**Delete Custom Meida Reference (Pro)** - DELETE /api/v1/workouts/httpRefs/{httpRef_id}
 
 
 ## Exercises
 
-### List Template Exercises | Any Plan
+**List Default Exercises (Unlogged)** - GET /api/v1/workouts/exercises/default
 
-GET /api/v1/workouts/exercises/templates
+**List Custom Exercises (Pro)** - GET /api/v1/workouts/exercises
 
+**Create Custom Exercise (Pro)** - POST /api/v1/workouts/exercises
 
-### List All Exercises or Custom Only | Pro
+**Associate Exercise as Completed (Pro)** - POST /api/v1/workouts/exercises/completed?exercise_id=int&workout_id=
 
-GET /api/v1/workouts/exercises?isCustomOnly=
+**Update Custom Exercise (Pro)** - PATCH /api/v1/workouts/exercises/{exercise_id}
 
-
-### Create Custom Exercise | Pro
-
-POST /api/v1/workouts/exercises
-
-
-### Associate Exercise as Completed | Pro
-
-POST /api/v1/workouts/exercises/{exercise_id}/{user_id}
-
-
-### Update Custom Exercise | Pro
-
-PATCH /api/v1/workouts/exercises/{exercise_id}
-
-
-### Delete Custom Exercise | Pro
-
-DELETE /api/v1/workouts/exercises/{exercise_id}
+**Delete Custom Exercise (Pro)** - DELETE /api/v1/workouts/exercises/{exercise_id}
 
 
 ## Workouts
 
-### List Template Workouts | Any Plan
+**List Default Workouts (Unlogged)** - GET /api/v1/workouts/default
 
-GET /api/v1/workouts/templates
+**List Custom Workouts (Pro)** - GET /api/v1/workouts
 
+**Create Custom Workout (Pro)** - POST /api/v1/workouts 
 
-### List All Workouts or Custom Only | Pro
+**Update Custom Workout (Pro)** - PATCH /api/v1/workouts/{workout_id}
 
-GET /api/v1/workouts?isCustomOnly=
-
-
-### Create Custom Workout | Pro
-
-POST /api/v1/workouts 
-
-
-### Update Custom Workout | Pro
-
-PATCH /api/v1/workouts/{workout_id}
-
-
-### Delete Custom Workout | Pro
-
-DELETE /api/v1/workouts/{workout_id}
+**Delete Custom Workout (Pro)** - DELETE /api/v1/workouts/{workout_id}
