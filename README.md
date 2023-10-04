@@ -25,4 +25,4 @@ Nutrition (supplements) and meditation (mental health) are planned to be include
 
 [Dev Guides](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Guides.md)
 
-[Onboarding](https://github.com/Healthy-Lifestyle-Assistant/docs/tree/main/Onboarding)
+[Onboarding](https://github.com/Healthy-Lifestyle-Assistant/docs/blob/main/Onboarding/Onboarding.md)
