@@ -1,20 +1,9 @@
-# Calendar Enpoints
+# Calendar Endpoints
 
-### List User’s Reminders | Pro
+**List User’s Reminders (Basic, Pro)** - GET /api/v1/calendar?startDate=date&endDate=date
 
-GET /api/v1/calendar/{user_id}?startDate=&endDate=&eventType=&eventStatus
+**Create Reminder (Basic, Pro)** - POST /api/v1/calendar
 
+**Update Reminder (Basic, Pro)** - PATCH /api/v1/calendar/{reminder_id}
 
-### Create Reminder | Pro
-
-POST /api/v1/calendar
-
-
-### Update Reminder | Pro
-
-PATCH /api/v1/calendar/{reminder_id}
-
-
-### Delete Reminder | Pro
-
-DELETE /api/v1/calendar/{reminder_id}
+**Delete Reminder (Basic, Pro)** - DELETE /api/v1/calendar/{reminder_id}
