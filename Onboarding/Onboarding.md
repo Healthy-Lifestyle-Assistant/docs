@@ -68,8 +68,10 @@ Navigate through repositories on GitHub. Don’t clone them at this stage.
 1. Install [PostgreSQL 12](https://www.postgresql.org/download/) and [PgAdmin](https://www.pgadmin.org/download/)
 1. Install [Postman](https://www.postman.com/downloads/)
 1. Install [Intellij IDEA Community](https://www.jetbrains.com/idea/download)
-1. Install [VS Code](https://code.visualstudio.com/download)
-1. Install [Google Chrome](https://www.google.com/chrome/)
+1. Install [VS Code](https://code.visualstudio.com/download)  
+1. Install [Google Chrome](https://www.google.com/chrome/)  
+1. Install [Slack Desktop](https://slack.com/downloads/windows)  
+1. Install [Figma Desktop](https://www.figma.com/downloads/)  
 
 [Top](#onboarding)
 
