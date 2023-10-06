@@ -23,6 +23,9 @@ There is a typical process of working on a task:
 - After review is completed, inform the Project manager. PM will merge your pull request to the main branch.
 - After merging, return to IDE and checkout to the “origin/main” branch, pull and merge changes from the remote repository.
 
+[Top](#development-guides)  
+
+
 ## Working with Proposals
 
 ### Difference between Ideas and Proposals
@@ -33,7 +36,7 @@ There is a typical process of working on a task:
 
 ### What to Take into Account about Your Proposals
 
-- Is it beneficial for the project? So it’s important to argue your proposals within the team and list benefits for the projects.
+- Is it beneficial for the project? So it’s important to argue your proposals with a team and list benefits for the project.
 - Do you have expertise and enough time and motivation to implement your proposals? As an initiator you will be primarily responsible for an implementation of your proposals.
 - What will it cost for other team members? Do we need to refactor and change much of what we already have?
 
@@ -47,3 +50,5 @@ There is a typical process of working on a task:
 ### Backlog
 
 The proposals team agreed with and which we don’t have time to implement are included in “backlog.md” in “docs” repository.
+
+[Top](#development-guides)  
