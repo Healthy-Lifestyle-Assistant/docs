@@ -1,7 +1,7 @@
 # Contributors Guide
 
 [Prerequisites](#prerequisites)  
-[Frontend](fFrontend)  
+[Frontend](#frontend)  
 [Backend](#backend)  
 [Branches Naming](#branches-naming)  
 
