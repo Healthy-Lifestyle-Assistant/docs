@@ -3,67 +3,85 @@
 
 ## Exercises
 
-**Create Custom Exercise** - POST /api/v1/workouts/exercises
+**Create custom exercise** - POST /api/v1/workouts/exercises
 
-**Get Custom Exercise by Id** - GET /api/v1/workouts/exercises/{exercise_id}
+**Get custom exercise by id** - GET /api/v1/workouts/exercises/{exercise_id}
 
-**Get Default Exercise by Id** - GET /api/v1/workouts/exercises/default/{exercise_id}
+**Get default exercise by id** - GET /api/v1/workouts/exercises/default/{exercise_id}
 
-**Get Custom Exercises** - GET /api/v1/workouts/exercises
+**Get custom exercises** - GET /api/v1/workouts/exercises
 
-**Get Default Exercises** - GET /api/v1/workouts/exercises/default
+**Get default exercises** - GET /api/v1/workouts/exercises/default
 
-**Update Custom Exercise** - PATCH /api/v1/workouts/exercises/{exercise_id}
+**Update custom exercise** - PATCH /api/v1/workouts/exercises/{exercise_id}
 
-**Delete Custom Exercise** - DELETE /api/v1/workouts/exercises/{exercise_id}
+**Delete custom exercise** - DELETE /api/v1/workouts/exercises/{exercise_id}
 
 
 ## Workouts
 
-**Create Custom Workout** - POST /api/v1/workouts
+**Create custom workout** - POST /api/v1/workouts
 
-**Get Custom Workout by Id** - GET /api/v1/workouts/{workouts_id}
+**Get custom workout by id** - GET /api/v1/workouts/{workouts_id}
 
-**Get Default Workout by Id** - GET /api/v1/workouts/default/{workouts_id}
+**Get default workout by id** - GET /api/v1/workouts/default/{workouts_id}
 
-**Get Custom Workouts** - GET /api/v1/workouts
+**Get custom workouts** - GET /api/v1/workouts
 
-**Get Default Workouts** - GET /api/v1/workouts/default
+**Get default workouts** - GET /api/v1/workouts/default
 
-**Update Custom Workout** - PATCH /api/v1/workouts/{workout_id}
+**Update custom workout** - PATCH /api/v1/workouts/{workout_id}
 
-**Delete Custom Workout** - DELETE /api/v1/workouts/{workout_id}
+**Delete custom workout** - DELETE /api/v1/workouts/{workout_id}
 
 
 ## Body Parts
 
-**Get Body Parts** - GET /api/v1/workouts/bodyParts
+**Get body parts** - GET /api/v1/workouts/bodyParts
 
 
-## Media References
+## Http References
 
-**Create Custom Media** - POST /api/v1/workouts/httpRefs
+**Create custom http ref** - POST /api/v1/workouts/httpRefs
 
-**Get Custom Media** - GET /api/v1/workouts/httpRefs
+**Get custom http ref** - GET /api/v1/workouts/httpRefs
 
-**Get Default Media** - GET /api/v1/workouts/httpRefs/default
+**Get default http ref** - GET /api/v1/workouts/httpRefs/default
 
-**Update Custom Media** - PATCH /api/v1/workouts/httpRefs/{httpRef_id}
+**Update custom http ref** - PATCH /api/v1/workouts/httpRefs/{httpRef_id}
 
-**Delete Custom Media** - DELETE /api/v1/workouts/httpRefs/{httpRef_id}
+**Delete custom http ref** - DELETE /api/v1/workouts/httpRefs/{httpRef_id}
 
 
-## Workout Reminders
+## Workout Calendar
 
-**Create Workout Reminder** - POST /api/v1/calendar/workouts
+**Create workout reminder** - POST /api/v1/calendar/workouts
 
-**Get Workout Reminder by Id** - GET /api/v1/calendar/workouts/{workout_id}
+**Get workout reminder by id** - GET /api/v1/calendar/workouts/{workout_id}
 
-**Get User's Workout Reminders** - GET /api/v1/calendar/users/{user_id}/workouts
+**Get all user's workout reminders** - GET /api/v1/calendar/workouts/users/{user_id}
 
-**Update Workout Reminder** - PATCH /api/v1/calendar/workouts/{workout_id}
+**Update workout reminder** - PATCH /api/v1/calendar/workouts/{workout_id}
 
-**Delete Workout Reminder** - DELETE /api/v1/calendar/workouts/{workout_id}
+**Delete workout reminder** - DELETE /api/v1/calendar/workouts/{workout_id}
+
+
+## Workout Completion
+
+**Mark exercise as completed** - POST /api/v1/calendar/completed/users/{user_id}/workouts/{workout_id}/exercises/{exercise_id}
+
+
+## Workout Pause
+
+**Create exercise pause** - POST /api/v1/calendar/pauses/workouts/{workout_id}/exercises/{exercise_id}
+
+**Get exercise pause by id** - GET /api/v1/calendar/pauses/{pause_id}
+
+**Get all user's exercise pauses** - GET /api/v1/calendar/pauses/users/{user_id}
+
+**Update exercise pause** - PATCH /api/v1/calendar/pauses/{pause_id}
+
+**Delete exercise pause** - DELETE /api/v1/calendar/pauses/{pause_id}
 
 
 [Top](#workout-endpoints)  
