@@ -36,4 +36,6 @@ cd path/to/backend
 
 To run development configuration from Intellij Idea, specify `PROFILE=dev` in the “Environment variables”.
 
+Before starting the server, ensure you have created a database with name `test_healthy_db`, user `test_user`, password `test_password`.
+
 [Top](#contributors-guide)  
