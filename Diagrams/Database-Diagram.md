@@ -1,3 +1,5 @@
 # Database Diagram
 
-![Database Diagram](./img/database-diagram.jpg)
+![Workouts](./img/database-diagram-workouts.jpg)
+
+![Nutrition and Meditations](./img/database-diagram-nutrition-and-meditations.jpg)
